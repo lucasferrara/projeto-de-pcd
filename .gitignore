@@ -1,0 +1,31 @@
+# Executáveis e DLLs de runtime (gerados por scripts/build.py ou make)
+bin/
+*.exe
+*.dll
+*.o
+*.obj
+
+# Datasets (~90 MB, regerados com: py scripts/gen_datasets.py)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs temporários do Intel Power Gadget
+PowerLog*.csv
+powerlog_*.csv
+
+# Documentos de apoio locais (não versionados)
+METODOLOGIA.md
+resultados_resumo.md
+
+# Editores / IDEs
+.vscode/
+.idea/
+.cursor/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store

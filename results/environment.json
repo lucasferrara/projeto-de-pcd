@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-02T15:44:30",
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.13.2",
+  "logical_cpus": 6,
+  "energy_method": "rapl_energylib",
+  "energylib": "C:\\Program Files\\Intel\\Power Gadget 3.6\\EnergyLib64.dll",
+  "args": {
+    "datasets": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "runs": 10,
+    "threads": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "warmup": 1,
+    "max_iter": 50,
+    "eps": 1e-06,
+    "energy": "auto",
+    "out_dir": "C:\\Users\\Ferrara77\\Documents\\GitHub\\projeto-de-pcd\\results",
+    "data_dir": "C:\\Users\\Ferrara77\\Documents\\GitHub\\projeto-de-pcd\\data",
+    "quick": false
+  },
+  "gcc": "gcc.exe (Rev4, Built by MSYS2 project) 16.2.0",
+  "cpu": "Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz",
+  "ram_gb": "15.9",
+  "power_plan": "Power Scheme GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (High performance)",
+  "idle_package_power_w": 12.997
+}
